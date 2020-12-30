@@ -21,16 +21,16 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/panliang/SPComponentDemo'
+  s.homepage         = 'https://github.com/solerpan/SPComponentDemo'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'panliang' => 'panliang@17shanyuan.com' }
-  s.source           = { :git => 'https://github.com/panliang/SPComponentDemo.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/solerpan/SPComponentDemo.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'SPComponentDemo/Classes/**/*'
+  s.source_files = 'SPComponentDemo/Classes/**/*'zuj
   
   # s.resource_bundles = {
   #   'SPComponentDemo' => ['SPComponentDemo/Assets/*.png']
